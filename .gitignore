@@ -1,0 +1,36 @@
+# Project exclude paths
+# Kotlin/Gradle
+/build/
+/.gradle/
+/out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ktor specific
+*.db
+*.db-journal
+
+# Environment/config
+.env
+*.local
+*.secret
+secrets.json
+
+# JVM
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.swp
+*.tmp
