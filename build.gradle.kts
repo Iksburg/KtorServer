@@ -18,6 +18,7 @@ dependencies {
     implementation("io.ktor:ktor-server-content-negotiation:2.1.0")
     implementation("ch.qos.logback:logback-classic:1.5.18")
     implementation("org.jetbrains.exposed:exposed-core:0.41.1")
+    implementation("org.jetbrains.exposed:exposed-java-time:0.41.1")
     implementation("org.jetbrains.exposed:exposed-dao:0.41.1")
     implementation("org.jetbrains.exposed:exposed-jdbc:0.41.1")
     implementation("org.postgresql:postgresql:42.3.4")
